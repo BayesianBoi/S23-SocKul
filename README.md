@@ -1,2 +1,2 @@
 # S23-SocKul
-ABM in Mesa used for Social and Cultural exam S23
+ABM in both the Mesa package in Python and NetLogo used for Social and Cultural exam S23
