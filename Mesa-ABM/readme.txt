@@ -24,8 +24,6 @@ MyModel represents the entire simulation model. It includes parameters such as t
 
 The model creates a Barabasi-Albert scale-free network and populates it with MyAgent instances. The agents interact with their neighbors in each iteration, updating their confidence levels and deciding whether to speak out. The simulation continues until a stable state is reached (defined by agents' confidence differences being smaller than a threshold) or a maximum number of iterations (ticks) is reached.
 
-
-
 To run a single simulation, you can modify the parameters (N, m, y, and ticks) and then execute the script.
 For multiple simulations with varying m values, the script runs multiple simulations for each m and records the results in a CSV file named "results.csv". The CSV file includes data on agent opinions, speaking status, percentages of opinions, the majority opinion, the central node's opinion, and more.
 
