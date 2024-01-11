@@ -1,5 +1,5 @@
 
-Agent-Based Model for Opinion Dynamics
+# Agent-Based Model for Opinion Dynamics
 
 This repository contains a Python script for ABM that simulates opinion dynamics in a social network. The model explores how individual agents form and update their opinions based on interactions with their neighbors in the network.
 
@@ -10,7 +10,7 @@ The following Python packages are required to run the script:
 * Matplotlib: Used for plotting the simulation results. You can install it using pip with !pip install matplotlib.
 
 
-The model consists of two classes: MyAgent and MyModel.
+## The model consists of two classes: MyAgent and MyModel.
 
 MyAgent represents individual agents in the social network. Each agent has the following attributes:
 * opinion: A static opinion on a given topic, either 0 (for negative) or 1 (for positive).
