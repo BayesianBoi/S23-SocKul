@@ -1,6 +1,8 @@
-NetLogo Social Network Contagion Model
+# NetLogo Social Network Contagion Model
 This repository contains a NetLogo model that simulates the spread of contagion in a social network. The model allows users to create various types of networks and investigate the dynamics of contagion within them. The contagion can be initiated from a set of seed nodes, and its spread is influenced by parameters such as diffusion probability and seeding method.
-Setup
+
+
+## Setup
 Before running the model, ensure that you have NetLogo installed on your system. To execute the simulation, follow these steps:
 1. Open NetLogo and load the model file.
 2. Click the "Setup" button to initialize the simulation environment and create the social network based on the chosen network type.
@@ -8,8 +10,7 @@ Before running the model, ensure that you have NetLogo installed on your system.
 4. Click the "Go" button to start the simulation.
 
 
-Global Variables
-
+## Global Variables
 The model utilizes several global variables to track and calculate network measures during the simulation. Some of the key global variables include:
 
 * mean-path-length: Average path length between nodes in the network.
@@ -26,7 +27,7 @@ The model utilizes several global variables to track and calculate network measu
 
 
 
-Each node (turtle) in the network has several variables, including:
+### Each node (turtle) in the network has several variables, including:
 * adopt?: A boolean variable indicating whether the node has been infected with contagion.
 * clustering-coefficient: Defines the likelihood that two randomly selected neighbors of a node are neighbors themselves.
 * has-spread?: A boolean variable indicating whether the node has attempted to infect its neighbors.
@@ -39,7 +40,7 @@ Each node (turtle) in the network has several variables, including:
 
 
 
-The model includes several procedures to handle different aspects of the simulation:
+### The model includes several procedures to handle different aspects of the simulation:
 
 * setup: Initializes the simulation by clearing the environment, creating the social network, and setting up seed nodes.
 * generate-network: Generates the social network based on the chosen network type.
